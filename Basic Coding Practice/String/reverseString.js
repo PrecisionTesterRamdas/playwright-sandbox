@@ -35,3 +35,8 @@ function reverseStringOld(str) {
     return reversed;
 }
 console.log(reverseStringOld("Ram"));
+const reverseStringBuiltIn = (str) => {
+    let reversed = str.split("").reverse().join("");
+    return reversed;
+};
+console.log(reverseStringBuiltIn("TypeScript"));
